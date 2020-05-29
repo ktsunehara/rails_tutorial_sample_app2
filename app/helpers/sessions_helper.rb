@@ -36,7 +36,10 @@ module SessionsHelper
   def current_user?(user)
     user && user == current_user
   end
+<<<<<<< HEAD
   
+=======
+>>>>>>> updating-users
   def logged_in?
     !current_user.nil?
   end
